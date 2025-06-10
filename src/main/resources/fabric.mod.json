@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "command_test",
+	"version": "${version}",
+	"name": "Command Test",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"unilock"
+	],
+	"contact": {
+		"sources": "https://github.com/unilock/CommandTest",
+		"issues": "https://github.com/unilock/CommandTest/issues"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cc.unilock.command_test.CommandTest"
+		],
+		"client": [
+			"cc.unilock.command_test.CommandTestClient"
+		]
+	},
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": [
+			"1.21",
+			"1.21.1"
+		],
+		"fabric-api": "*"
+	}
+}
